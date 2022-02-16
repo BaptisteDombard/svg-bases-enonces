@@ -10,6 +10,38 @@
     font-style: normal;
 }
 /* reprenez ici votre feuille de style de l'exercie n3-02-logo2-transforms, nous allons la compéter */
+circle{
+    fill : none;
+    stroke : #008B6F;
+    stroke-width : 7px;
+}
+line{
+    stroke : #00392D;
+    stroke-width : 5px;
+    stroke-linecap : round;
+}
+polygon{
+    stroke: #00392D;
+    stroke-width: 2;
+    fill: #008B6F;
+    stroke-linejoin: round;
+}
+text{
+    font-family: "luckiest_guyregular";
+    font-size: 60px;
+    stroke: #00392D;
+    stroke-width: 3px;
+    fill: #F6F7F3;
+    text-anchor: middle;
+}
+.triangle_group polygon{
+    stroke-width: 1px;
+    fill: #59BFC6;
+}
+svg{
+    width: 50%;
+    height: auto;
+}
 /*
 Ajoutez les règles de style nécessaires pour rendre le SVG responsive
 */

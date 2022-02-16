@@ -5,3 +5,11 @@
 	- à la fin, il revient à sa taille normale
 Attention, le bouton doit rester centré !
 */
+svg:hover{
+    animation: puls 2s infinite;
+}
+@keyframes puls {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.5);}
+    100% {transform: scale(1)}
+}

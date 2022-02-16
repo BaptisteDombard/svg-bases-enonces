@@ -44,6 +44,21 @@ SOURCE : Page de démonstration du tutoriel
 			Ils se placent l'un en-dessous de l'autre en quinconce
 			Les apparitions s'enchaînent
 			-->
+			<svg height="300"
+				 width="500"
+				xmlns="http://www.w3.org/2000/svg"
+				 version="1.1"
+				 >
+				<rect width="150" height="50">
+					<animate attributeName="width" attributeType="xml" id="anim1" fill="freeze" from="0" to="150" begin="0s" dur="1s"/>
+				</rect>
+				<rect y="50" x="150" width="150" height="50">
+					<animate attributeName="width" attributeType="xml" id="anim2" fill="freeze" from="0" to="150" begin="anim1.end" dur="1s"/>
+				</rect>
+				<rect y="100" x="0" width="150" height="50">
+					<animate attributeName="width" attributeType="xml" fill="freeze" from="0" to="150" begin="anim2.end" dur="1s"/>
+				</rect>
+			</svg>
 		</div>
 	</body>
 </html>

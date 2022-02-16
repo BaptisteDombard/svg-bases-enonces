@@ -1,4 +1,26 @@
 /* Reprenez la feuille de style de l’exercice n2-01-phone, nous allons la compléter */
+svg{
+    border-radius: 10px;
+}
+rect{
+    stroke : #FF2626;
+    stroke-width : 20;
+    fill : white;
+}
+circle{
+    fill : white;
+}
+.phone_symbol{
+    display: none;
+}
+.phone_symbol1{
+    width: 10%;
+    height: auto;
+}
+.phone_symbol2{
+    width: 30%;
+    height: auto;
+}
 /* 
 	1. Masquez le symbole
 	2. Dimensionnez le téléphone du haut à 10% de la taille de son parent

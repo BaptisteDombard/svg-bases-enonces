@@ -1,1 +1,14 @@
 /* Reprenez la feuille de style de l’exercice n2-02-animated-phone, nous allons la compléter pour rendre le téléphone responsive */
+svg:hover{
+    animation: puls 2s infinite;
+}
+@keyframes puls {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.5);}
+    100% {transform: scale(1)}
+}
+rect{
+    stroke : #FF2626;
+    stroke-width : 20;
+    fill : white;
+}
